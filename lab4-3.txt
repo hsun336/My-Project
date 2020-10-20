@@ -1,0 +1,14 @@
+const NUM_RANDOM = 100;
+const LIMIT = 1000;
+
+function generateRandom() {
+	let maxNum = 0
+  let randNum
+  for (i=0; i<LIMIT+1; i++) {
+	let randNum = Math.round(Math.random()*LIMIT-0);
+  if (randNum > maxNum) {
+  maxNum = randNum;
+ }
+}
+  document.querySelector("#random").value = maxNum;
+}

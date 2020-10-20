@@ -1,0 +1,413 @@
+InvoiceId,InvoiceDate,Total,CustomerId,Country,FirstName,LastName
+1,2009-01-01 00:00:00,1.98,2,Germany,Leonie,Köhler
+2,2009-01-02 00:00:00,3.96,4,Norway,Bjørn,Hansen
+3,2009-01-03 00:00:00,5.94,8,Belgium,Daan,Peeters
+4,2009-01-06 00:00:00,8.91,14,Canada,Mark,Philips
+5,2009-01-11 00:00:00,13.86,23,USA,John,Gordon
+6,2009-01-19 00:00:00,0.99,37,Germany,Fynn,Zimmermann
+7,2009-02-01 00:00:00,1.98,38,Germany,Niklas,Schröder
+8,2009-02-01 00:00:00,1.98,40,France,Dominique,Lefebvre
+9,2009-02-02 00:00:00,3.96,42,France,Wyatt,Girard
+10,2009-02-03 00:00:00,5.94,46,Ireland,Hugh,O'Reilly
+11,2009-02-06 00:00:00,8.91,52,United Kingdom,Emma,Jones
+12,2009-02-11 00:00:00,13.86,2,Germany,Leonie,Köhler
+13,2009-02-19 00:00:00,0.99,16,USA,Frank,Harris
+14,2009-03-04 00:00:00,1.98,17,USA,Jack,Smith
+15,2009-03-04 00:00:00,1.98,19,USA,Tim,Goyer
+16,2009-03-05 00:00:00,3.96,21,USA,Kathy,Chase
+17,2009-03-06 00:00:00,5.94,25,USA,Victor,Stevens
+18,2009-03-09 00:00:00,8.91,31,Canada,Martha,Silk
+19,2009-03-14 00:00:00,13.86,40,France,Dominique,Lefebvre
+20,2009-03-22 00:00:00,0.99,54,United Kingdom,Steve,Murray
+21,2009-04-04 00:00:00,1.98,55,Australia,Mark,Taylor
+22,2009-04-04 00:00:00,1.98,57,Chile,Luis,Rojas
+23,2009-04-05 00:00:00,3.96,59,India,Puja,Srivastava
+24,2009-04-06 00:00:00,5.94,4,Norway,Bjørn,Hansen
+25,2009-04-09 00:00:00,8.91,10,Brazil,Eduardo,Martins
+26,2009-04-14 00:00:00,13.86,19,USA,Tim,Goyer
+27,2009-04-22 00:00:00,0.99,33,Canada,Ellie,Sullivan
+28,2009-05-05 00:00:00,1.98,34,Portugal,João,Fernandes
+29,2009-05-05 00:00:00,1.98,36,Germany,Hannah,Schneider
+30,2009-05-06 00:00:00,3.96,38,Germany,Niklas,Schröder
+31,2009-05-07 00:00:00,5.94,42,France,Wyatt,Girard
+32,2009-05-10 00:00:00,8.91,48,Netherlands,Johannes,Van der Berg
+33,2009-05-15 00:00:00,13.86,57,Chile,Luis,Rojas
+34,2009-05-23 00:00:00,0.99,12,Brazil,Roberto,Almeida
+35,2009-06-05 00:00:00,1.98,13,Brazil,Fernanda,Ramos
+36,2009-06-05 00:00:00,1.98,15,Canada,Jennifer,Peterson
+37,2009-06-06 00:00:00,3.96,17,USA,Jack,Smith
+38,2009-06-07 00:00:00,5.94,21,USA,Kathy,Chase
+39,2009-06-10 00:00:00,8.91,27,USA,Patrick,Gray
+40,2009-06-15 00:00:00,13.86,36,Germany,Hannah,Schneider
+41,2009-06-23 00:00:00,0.99,50,Spain,Enrique,Muñoz
+42,2009-07-06 00:00:00,1.98,51,Sweden,Joakim,Johansson
+43,2009-07-06 00:00:00,1.98,53,United Kingdom,Phil,Hughes
+44,2009-07-07 00:00:00,3.96,55,Australia,Mark,Taylor
+45,2009-07-08 00:00:00,5.94,59,India,Puja,Srivastava
+46,2009-07-11 00:00:00,8.91,6,Czech Republic,Helena,Holý
+47,2009-07-16 00:00:00,13.86,15,Canada,Jennifer,Peterson
+48,2009-07-24 00:00:00,0.99,29,Canada,Robert,Brown
+49,2009-08-06 00:00:00,1.98,30,Canada,Edward,Francis
+50,2009-08-06 00:00:00,1.98,32,Canada,Aaron,Mitchell
+51,2009-08-07 00:00:00,3.96,34,Portugal,João,Fernandes
+52,2009-08-08 00:00:00,5.94,38,Germany,Niklas,Schröder
+53,2009-08-11 00:00:00,8.91,44,Finland,Terhi,Hämäläinen
+54,2009-08-16 00:00:00,13.86,53,United Kingdom,Phil,Hughes
+55,2009-08-24 00:00:00,0.99,8,Belgium,Daan,Peeters
+56,2009-09-06 00:00:00,1.98,9,Denmark,Kara,Nielsen
+57,2009-09-06 00:00:00,1.98,11,Brazil,Alexandre,Rocha
+58,2009-09-07 00:00:00,3.96,13,Brazil,Fernanda,Ramos
+59,2009-09-08 00:00:00,5.94,17,USA,Jack,Smith
+60,2009-09-11 00:00:00,8.91,23,USA,John,Gordon
+61,2009-09-16 00:00:00,13.86,32,Canada,Aaron,Mitchell
+62,2009-09-24 00:00:00,0.99,46,Ireland,Hugh,O'Reilly
+63,2009-10-07 00:00:00,1.98,47,Italy,Lucas,Mancini
+64,2009-10-07 00:00:00,1.98,49,Poland,Stanisław,Wójcik
+65,2009-10-08 00:00:00,3.96,51,Sweden,Joakim,Johansson
+66,2009-10-09 00:00:00,5.94,55,Australia,Mark,Taylor
+67,2009-10-12 00:00:00,8.91,2,Germany,Leonie,Köhler
+68,2009-10-17 00:00:00,13.86,11,Brazil,Alexandre,Rocha
+69,2009-10-25 00:00:00,0.99,25,USA,Victor,Stevens
+70,2009-11-07 00:00:00,1.98,26,USA,Richard,Cunningham
+71,2009-11-07 00:00:00,1.98,28,USA,Julia,Barnett
+72,2009-11-08 00:00:00,3.96,30,Canada,Edward,Francis
+73,2009-11-09 00:00:00,5.94,34,Portugal,João,Fernandes
+74,2009-11-12 00:00:00,8.91,40,France,Dominique,Lefebvre
+75,2009-11-17 00:00:00,13.86,49,Poland,Stanisław,Wójcik
+76,2009-11-25 00:00:00,0.99,4,Norway,Bjørn,Hansen
+77,2009-12-08 00:00:00,1.98,5,Czech Republic,František,Wichterlová
+78,2009-12-08 00:00:00,1.98,7,Austria,Astrid,Gruber
+79,2009-12-09 00:00:00,3.96,9,Denmark,Kara,Nielsen
+80,2009-12-10 00:00:00,5.94,13,Brazil,Fernanda,Ramos
+81,2009-12-13 00:00:00,8.91,19,USA,Tim,Goyer
+82,2009-12-18 00:00:00,13.86,28,USA,Julia,Barnett
+83,2009-12-26 00:00:00,0.99,42,France,Wyatt,Girard
+84,2010-01-08 00:00:00,1.98,43,France,Isabelle,Mercier
+85,2010-01-08 00:00:00,1.98,45,Hungary,Ladislav,Kovács
+86,2010-01-09 00:00:00,3.96,47,Italy,Lucas,Mancini
+87,2010-01-10 00:00:00,6.94,51,Sweden,Joakim,Johansson
+88,2010-01-13 00:00:00,17.91,57,Chile,Luis,Rojas
+89,2010-01-18 00:00:00,18.86,7,Austria,Astrid,Gruber
+90,2010-01-26 00:00:00,0.99,21,USA,Kathy,Chase
+91,2010-02-08 00:00:00,1.98,22,USA,Heather,Leacock
+92,2010-02-08 00:00:00,1.98,24,USA,Frank,Ralston
+93,2010-02-09 00:00:00,3.96,26,USA,Richard,Cunningham
+94,2010-02-10 00:00:00,5.94,30,Canada,Edward,Francis
+95,2010-02-13 00:00:00,8.91,36,Germany,Hannah,Schneider
+96,2010-02-18 00:00:00,21.86,45,Hungary,Ladislav,Kovács
+97,2010-02-26 00:00:00,1.99,59,India,Puja,Srivastava
+98,2010-03-11 00:00:00,3.98,1,Brazil,Luís,Gonçalves
+99,2010-03-11 00:00:00,3.98,3,Canada,François,Tremblay
+100,2010-03-12 00:00:00,3.96,5,Czech Republic,František,Wichterlová
+101,2010-03-13 00:00:00,5.94,9,Denmark,Kara,Nielsen
+102,2010-03-16 00:00:00,9.91,15,Canada,Jennifer,Peterson
+103,2010-03-21 00:00:00,15.86,24,USA,Frank,Ralston
+104,2010-03-29 00:00:00,0.99,38,Germany,Niklas,Schröder
+105,2010-04-11 00:00:00,1.98,39,France,Camille,Bernard
+106,2010-04-11 00:00:00,1.98,41,France,Marc,Dubois
+107,2010-04-12 00:00:00,3.96,43,France,Isabelle,Mercier
+108,2010-04-13 00:00:00,5.94,47,Italy,Lucas,Mancini
+109,2010-04-16 00:00:00,8.91,53,United Kingdom,Phil,Hughes
+110,2010-04-21 00:00:00,13.86,3,Canada,François,Tremblay
+111,2010-04-29 00:00:00,0.99,17,USA,Jack,Smith
+112,2010-05-12 00:00:00,1.98,18,USA,Michelle,Brooks
+113,2010-05-12 00:00:00,1.98,20,USA,Dan,Miller
+114,2010-05-13 00:00:00,3.96,22,USA,Heather,Leacock
+115,2010-05-14 00:00:00,5.94,26,USA,Richard,Cunningham
+116,2010-05-17 00:00:00,8.91,32,Canada,Aaron,Mitchell
+117,2010-05-22 00:00:00,13.86,41,France,Marc,Dubois
+118,2010-05-30 00:00:00,0.99,55,Australia,Mark,Taylor
+119,2010-06-12 00:00:00,1.98,56,Argentina,Diego,Gutiérrez
+120,2010-06-12 00:00:00,1.98,58,India,Manoj,Pareek
+121,2010-06-13 00:00:00,3.96,1,Brazil,Luís,Gonçalves
+122,2010-06-14 00:00:00,5.94,5,Czech Republic,František,Wichterlová
+123,2010-06-17 00:00:00,8.91,11,Brazil,Alexandre,Rocha
+124,2010-06-22 00:00:00,13.86,20,USA,Dan,Miller
+125,2010-06-30 00:00:00,0.99,34,Portugal,João,Fernandes
+126,2010-07-13 00:00:00,1.98,35,Portugal,Madalena,Sampaio
+127,2010-07-13 00:00:00,1.98,37,Germany,Fynn,Zimmermann
+128,2010-07-14 00:00:00,3.96,39,France,Camille,Bernard
+129,2010-07-15 00:00:00,5.94,43,France,Isabelle,Mercier
+130,2010-07-18 00:00:00,8.91,49,Poland,Stanisław,Wójcik
+131,2010-07-23 00:00:00,13.86,58,India,Manoj,Pareek
+132,2010-07-31 00:00:00,0.99,13,Brazil,Fernanda,Ramos
+133,2010-08-13 00:00:00,1.98,14,Canada,Mark,Philips
+134,2010-08-13 00:00:00,1.98,16,USA,Frank,Harris
+135,2010-08-14 00:00:00,3.96,18,USA,Michelle,Brooks
+136,2010-08-15 00:00:00,5.94,22,USA,Heather,Leacock
+137,2010-08-18 00:00:00,8.91,28,USA,Julia,Barnett
+138,2010-08-23 00:00:00,13.86,37,Germany,Fynn,Zimmermann
+139,2010-08-31 00:00:00,0.99,51,Sweden,Joakim,Johansson
+140,2010-09-13 00:00:00,1.98,52,United Kingdom,Emma,Jones
+141,2010-09-13 00:00:00,1.98,54,United Kingdom,Steve,Murray
+142,2010-09-14 00:00:00,3.96,56,Argentina,Diego,Gutiérrez
+143,2010-09-15 00:00:00,5.94,1,Brazil,Luís,Gonçalves
+144,2010-09-18 00:00:00,8.91,7,Austria,Astrid,Gruber
+145,2010-09-23 00:00:00,13.86,16,USA,Frank,Harris
+146,2010-10-01 00:00:00,0.99,30,Canada,Edward,Francis
+147,2010-10-14 00:00:00,1.98,31,Canada,Martha,Silk
+148,2010-10-14 00:00:00,1.98,33,Canada,Ellie,Sullivan
+149,2010-10-15 00:00:00,3.96,35,Portugal,Madalena,Sampaio
+150,2010-10-16 00:00:00,5.94,39,France,Camille,Bernard
+151,2010-10-19 00:00:00,8.91,45,Hungary,Ladislav,Kovács
+152,2010-10-24 00:00:00,13.86,54,United Kingdom,Steve,Murray
+153,2010-11-01 00:00:00,0.99,9,Denmark,Kara,Nielsen
+154,2010-11-14 00:00:00,1.98,10,Brazil,Eduardo,Martins
+155,2010-11-14 00:00:00,1.98,12,Brazil,Roberto,Almeida
+156,2010-11-15 00:00:00,3.96,14,Canada,Mark,Philips
+157,2010-11-16 00:00:00,5.94,18,USA,Michelle,Brooks
+158,2010-11-19 00:00:00,8.91,24,USA,Frank,Ralston
+159,2010-11-24 00:00:00,13.86,33,Canada,Ellie,Sullivan
+160,2010-12-02 00:00:00,0.99,47,Italy,Lucas,Mancini
+161,2010-12-15 00:00:00,1.98,48,Netherlands,Johannes,Van der Berg
+162,2010-12-15 00:00:00,1.98,50,Spain,Enrique,Muñoz
+163,2010-12-16 00:00:00,3.96,52,United Kingdom,Emma,Jones
+164,2010-12-17 00:00:00,5.94,56,Argentina,Diego,Gutiérrez
+165,2010-12-20 00:00:00,8.91,3,Canada,François,Tremblay
+166,2010-12-25 00:00:00,13.86,12,Brazil,Roberto,Almeida
+167,2011-01-02 00:00:00,0.99,26,USA,Richard,Cunningham
+168,2011-01-15 00:00:00,1.98,27,USA,Patrick,Gray
+169,2011-01-15 00:00:00,1.98,29,Canada,Robert,Brown
+170,2011-01-16 00:00:00,3.96,31,Canada,Martha,Silk
+171,2011-01-17 00:00:00,5.94,35,Portugal,Madalena,Sampaio
+172,2011-01-20 00:00:00,8.91,41,France,Marc,Dubois
+173,2011-01-25 00:00:00,13.86,50,Spain,Enrique,Muñoz
+174,2011-02-02 00:00:00,0.99,5,Czech Republic,František,Wichterlová
+175,2011-02-15 00:00:00,1.98,6,Czech Republic,Helena,Holý
+176,2011-02-15 00:00:00,1.98,8,Belgium,Daan,Peeters
+177,2011-02-16 00:00:00,3.96,10,Brazil,Eduardo,Martins
+178,2011-02-17 00:00:00,5.94,14,Canada,Mark,Philips
+179,2011-02-20 00:00:00,8.91,20,USA,Dan,Miller
+180,2011-02-25 00:00:00,13.86,29,Canada,Robert,Brown
+181,2011-03-05 00:00:00,0.99,43,France,Isabelle,Mercier
+182,2011-03-18 00:00:00,1.98,44,Finland,Terhi,Hämäläinen
+183,2011-03-18 00:00:00,1.98,46,Ireland,Hugh,O'Reilly
+184,2011-03-19 00:00:00,3.96,48,Netherlands,Johannes,Van der Berg
+185,2011-03-20 00:00:00,5.94,52,United Kingdom,Emma,Jones
+186,2011-03-23 00:00:00,8.91,58,India,Manoj,Pareek
+187,2011-03-28 00:00:00,13.86,8,Belgium,Daan,Peeters
+188,2011-04-05 00:00:00,0.99,22,USA,Heather,Leacock
+189,2011-04-18 00:00:00,1.98,23,USA,John,Gordon
+190,2011-04-18 00:00:00,1.98,25,USA,Victor,Stevens
+191,2011-04-19 00:00:00,3.96,27,USA,Patrick,Gray
+192,2011-04-20 00:00:00,5.94,31,Canada,Martha,Silk
+193,2011-04-23 00:00:00,14.91,37,Germany,Fynn,Zimmermann
+194,2011-04-28 00:00:00,21.86,46,Ireland,Hugh,O'Reilly
+195,2011-05-06 00:00:00,0.99,1,Brazil,Luís,Gonçalves
+196,2011-05-19 00:00:00,1.98,2,Germany,Leonie,Köhler
+197,2011-05-19 00:00:00,1.98,4,Norway,Bjørn,Hansen
+198,2011-05-20 00:00:00,3.96,6,Czech Republic,Helena,Holý
+199,2011-05-21 00:00:00,5.94,10,Brazil,Eduardo,Martins
+200,2011-05-24 00:00:00,8.91,16,USA,Frank,Harris
+201,2011-05-29 00:00:00,18.86,25,USA,Victor,Stevens
+202,2011-06-06 00:00:00,1.99,39,France,Camille,Bernard
+203,2011-06-19 00:00:00,2.98,40,France,Dominique,Lefebvre
+204,2011-06-19 00:00:00,3.98,42,France,Wyatt,Girard
+205,2011-06-20 00:00:00,7.96,44,Finland,Terhi,Hämäläinen
+206,2011-06-21 00:00:00,8.94,48,Netherlands,Johannes,Van der Berg
+207,2011-06-24 00:00:00,8.91,54,United Kingdom,Steve,Murray
+208,2011-06-29 00:00:00,15.86,4,Norway,Bjørn,Hansen
+209,2011-07-07 00:00:00,0.99,18,USA,Michelle,Brooks
+210,2011-07-20 00:00:00,1.98,19,USA,Tim,Goyer
+211,2011-07-20 00:00:00,1.98,21,USA,Kathy,Chase
+212,2011-07-21 00:00:00,3.96,23,USA,John,Gordon
+213,2011-07-22 00:00:00,5.94,27,USA,Patrick,Gray
+214,2011-07-25 00:00:00,8.91,33,Canada,Ellie,Sullivan
+215,2011-07-30 00:00:00,13.86,42,France,Wyatt,Girard
+216,2011-08-07 00:00:00,0.99,56,Argentina,Diego,Gutiérrez
+217,2011-08-20 00:00:00,1.98,57,Chile,Luis,Rojas
+218,2011-08-20 00:00:00,1.98,59,India,Puja,Srivastava
+219,2011-08-21 00:00:00,3.96,2,Germany,Leonie,Köhler
+220,2011-08-22 00:00:00,5.94,6,Czech Republic,Helena,Holý
+221,2011-08-25 00:00:00,8.91,12,Brazil,Roberto,Almeida
+222,2011-08-30 00:00:00,13.86,21,USA,Kathy,Chase
+223,2011-09-07 00:00:00,0.99,35,Portugal,Madalena,Sampaio
+224,2011-09-20 00:00:00,1.98,36,Germany,Hannah,Schneider
+225,2011-09-20 00:00:00,1.98,38,Germany,Niklas,Schröder
+226,2011-09-21 00:00:00,3.96,40,France,Dominique,Lefebvre
+227,2011-09-22 00:00:00,5.94,44,Finland,Terhi,Hämäläinen
+228,2011-09-25 00:00:00,8.91,50,Spain,Enrique,Muñoz
+229,2011-09-30 00:00:00,13.86,59,India,Puja,Srivastava
+230,2011-10-08 00:00:00,0.99,14,Canada,Mark,Philips
+231,2011-10-21 00:00:00,1.98,15,Canada,Jennifer,Peterson
+232,2011-10-21 00:00:00,1.98,17,USA,Jack,Smith
+233,2011-10-22 00:00:00,3.96,19,USA,Tim,Goyer
+234,2011-10-23 00:00:00,5.94,23,USA,John,Gordon
+235,2011-10-26 00:00:00,8.91,29,Canada,Robert,Brown
+236,2011-10-31 00:00:00,13.86,38,Germany,Niklas,Schröder
+237,2011-11-08 00:00:00,0.99,52,United Kingdom,Emma,Jones
+238,2011-11-21 00:00:00,1.98,53,United Kingdom,Phil,Hughes
+239,2011-11-21 00:00:00,1.98,55,Australia,Mark,Taylor
+240,2011-11-22 00:00:00,3.96,57,Chile,Luis,Rojas
+241,2011-11-23 00:00:00,5.94,2,Germany,Leonie,Köhler
+242,2011-11-26 00:00:00,8.91,8,Belgium,Daan,Peeters
+243,2011-12-01 00:00:00,13.86,17,USA,Jack,Smith
+244,2011-12-09 00:00:00,0.99,31,Canada,Martha,Silk
+245,2011-12-22 00:00:00,1.98,32,Canada,Aaron,Mitchell
+246,2011-12-22 00:00:00,1.98,34,Portugal,João,Fernandes
+247,2011-12-23 00:00:00,3.96,36,Germany,Hannah,Schneider
+248,2011-12-24 00:00:00,5.94,40,France,Dominique,Lefebvre
+249,2011-12-27 00:00:00,8.91,46,Ireland,Hugh,O'Reilly
+250,2012-01-01 00:00:00,13.86,55,Australia,Mark,Taylor
+251,2012-01-09 00:00:00,0.99,10,Brazil,Eduardo,Martins
+252,2012-01-22 00:00:00,1.98,11,Brazil,Alexandre,Rocha
+253,2012-01-22 00:00:00,1.98,13,Brazil,Fernanda,Ramos
+254,2012-01-23 00:00:00,3.96,15,Canada,Jennifer,Peterson
+255,2012-01-24 00:00:00,5.94,19,USA,Tim,Goyer
+256,2012-01-27 00:00:00,8.91,25,USA,Victor,Stevens
+257,2012-02-01 00:00:00,13.86,34,Portugal,João,Fernandes
+258,2012-02-09 00:00:00,0.99,48,Netherlands,Johannes,Van der Berg
+259,2012-02-22 00:00:00,1.98,49,Poland,Stanisław,Wójcik
+260,2012-02-22 00:00:00,1.98,51,Sweden,Joakim,Johansson
+261,2012-02-23 00:00:00,3.96,53,United Kingdom,Phil,Hughes
+262,2012-02-24 00:00:00,5.94,57,Chile,Luis,Rojas
+263,2012-02-27 00:00:00,8.91,4,Norway,Bjørn,Hansen
+264,2012-03-03 00:00:00,13.86,13,Brazil,Fernanda,Ramos
+265,2012-03-11 00:00:00,0.99,27,USA,Patrick,Gray
+266,2012-03-24 00:00:00,1.98,28,USA,Julia,Barnett
+267,2012-03-24 00:00:00,1.98,30,Canada,Edward,Francis
+268,2012-03-25 00:00:00,3.96,32,Canada,Aaron,Mitchell
+269,2012-03-26 00:00:00,5.94,36,Germany,Hannah,Schneider
+270,2012-03-29 00:00:00,8.91,42,France,Wyatt,Girard
+271,2012-04-03 00:00:00,13.86,51,Sweden,Joakim,Johansson
+272,2012-04-11 00:00:00,0.99,6,Czech Republic,Helena,Holý
+273,2012-04-24 00:00:00,1.98,7,Austria,Astrid,Gruber
+274,2012-04-24 00:00:00,1.98,9,Denmark,Kara,Nielsen
+275,2012-04-25 00:00:00,3.96,11,Brazil,Alexandre,Rocha
+276,2012-04-26 00:00:00,5.94,15,Canada,Jennifer,Peterson
+277,2012-04-29 00:00:00,8.91,21,USA,Kathy,Chase
+278,2012-05-04 00:00:00,13.86,30,Canada,Edward,Francis
+279,2012-05-12 00:00:00,0.99,44,Finland,Terhi,Hämäläinen
+280,2012-05-25 00:00:00,1.98,45,Hungary,Ladislav,Kovács
+281,2012-05-25 00:00:00,1.98,47,Italy,Lucas,Mancini
+282,2012-05-26 00:00:00,3.96,49,Poland,Stanisław,Wójcik
+283,2012-05-27 00:00:00,5.94,53,United Kingdom,Phil,Hughes
+284,2012-05-30 00:00:00,8.91,59,India,Puja,Srivastava
+285,2012-06-04 00:00:00,13.86,9,Denmark,Kara,Nielsen
+286,2012-06-12 00:00:00,0.99,23,USA,John,Gordon
+287,2012-06-25 00:00:00,1.98,24,USA,Frank,Ralston
+288,2012-06-25 00:00:00,1.98,26,USA,Richard,Cunningham
+289,2012-06-26 00:00:00,3.96,28,USA,Julia,Barnett
+290,2012-06-27 00:00:00,5.94,32,Canada,Aaron,Mitchell
+291,2012-06-30 00:00:00,8.91,38,Germany,Niklas,Schröder
+292,2012-07-05 00:00:00,13.86,47,Italy,Lucas,Mancini
+293,2012-07-13 00:00:00,0.99,2,Germany,Leonie,Köhler
+294,2012-07-26 00:00:00,1.98,3,Canada,François,Tremblay
+295,2012-07-26 00:00:00,1.98,5,Czech Republic,František,Wichterlová
+296,2012-07-27 00:00:00,3.96,7,Austria,Astrid,Gruber
+297,2012-07-28 00:00:00,5.94,11,Brazil,Alexandre,Rocha
+298,2012-07-31 00:00:00,10.91,17,USA,Jack,Smith
+299,2012-08-05 00:00:00,23.86,26,USA,Richard,Cunningham
+300,2012-08-13 00:00:00,0.99,40,France,Dominique,Lefebvre
+301,2012-08-26 00:00:00,1.98,41,France,Marc,Dubois
+302,2012-08-26 00:00:00,1.98,43,France,Isabelle,Mercier
+303,2012-08-27 00:00:00,3.96,45,Hungary,Ladislav,Kovács
+304,2012-08-28 00:00:00,5.94,49,Poland,Stanisław,Wójcik
+305,2012-08-31 00:00:00,8.91,55,Australia,Mark,Taylor
+306,2012-09-05 00:00:00,16.86,5,Czech Republic,František,Wichterlová
+307,2012-09-13 00:00:00,1.99,19,USA,Tim,Goyer
+308,2012-09-26 00:00:00,3.98,20,USA,Dan,Miller
+309,2012-09-26 00:00:00,3.98,22,USA,Heather,Leacock
+310,2012-09-27 00:00:00,7.96,24,USA,Frank,Ralston
+311,2012-09-28 00:00:00,11.94,28,USA,Julia,Barnett
+312,2012-10-01 00:00:00,10.91,34,Portugal,João,Fernandes
+313,2012-10-06 00:00:00,16.86,43,France,Isabelle,Mercier
+314,2012-10-14 00:00:00,0.99,57,Chile,Luis,Rojas
+315,2012-10-27 00:00:00,1.98,58,India,Manoj,Pareek
+316,2012-10-27 00:00:00,1.98,1,Brazil,Luís,Gonçalves
+317,2012-10-28 00:00:00,3.96,3,Canada,François,Tremblay
+318,2012-10-29 00:00:00,5.94,7,Austria,Astrid,Gruber
+319,2012-11-01 00:00:00,8.91,13,Brazil,Fernanda,Ramos
+320,2012-11-06 00:00:00,13.86,22,USA,Heather,Leacock
+321,2012-11-14 00:00:00,0.99,36,Germany,Hannah,Schneider
+322,2012-11-27 00:00:00,1.98,37,Germany,Fynn,Zimmermann
+323,2012-11-27 00:00:00,1.98,39,France,Camille,Bernard
+324,2012-11-28 00:00:00,3.96,41,France,Marc,Dubois
+325,2012-11-29 00:00:00,5.94,45,Hungary,Ladislav,Kovács
+326,2012-12-02 00:00:00,8.91,51,Sweden,Joakim,Johansson
+327,2012-12-07 00:00:00,13.86,1,Brazil,Luís,Gonçalves
+328,2012-12-15 00:00:00,0.99,15,Canada,Jennifer,Peterson
+329,2012-12-28 00:00:00,1.98,16,USA,Frank,Harris
+330,2012-12-28 00:00:00,1.98,18,USA,Michelle,Brooks
+331,2012-12-29 00:00:00,3.96,20,USA,Dan,Miller
+332,2012-12-30 00:00:00,5.94,24,USA,Frank,Ralston
+333,2013-01-02 00:00:00,8.91,30,Canada,Edward,Francis
+334,2013-01-07 00:00:00,13.86,39,France,Camille,Bernard
+335,2013-01-15 00:00:00,0.99,53,United Kingdom,Phil,Hughes
+336,2013-01-28 00:00:00,1.98,54,United Kingdom,Steve,Murray
+337,2013-01-28 00:00:00,1.98,56,Argentina,Diego,Gutiérrez
+338,2013-01-29 00:00:00,3.96,58,India,Manoj,Pareek
+339,2013-01-30 00:00:00,5.94,3,Canada,François,Tremblay
+340,2013-02-02 00:00:00,8.91,9,Denmark,Kara,Nielsen
+341,2013-02-07 00:00:00,13.86,18,USA,Michelle,Brooks
+342,2013-02-15 00:00:00,0.99,32,Canada,Aaron,Mitchell
+343,2013-02-28 00:00:00,1.98,33,Canada,Ellie,Sullivan
+344,2013-02-28 00:00:00,1.98,35,Portugal,Madalena,Sampaio
+345,2013-03-01 00:00:00,3.96,37,Germany,Fynn,Zimmermann
+346,2013-03-02 00:00:00,5.94,41,France,Marc,Dubois
+347,2013-03-05 00:00:00,8.91,47,Italy,Lucas,Mancini
+348,2013-03-10 00:00:00,13.86,56,Argentina,Diego,Gutiérrez
+349,2013-03-18 00:00:00,0.99,11,Brazil,Alexandre,Rocha
+350,2013-03-31 00:00:00,1.98,12,Brazil,Roberto,Almeida
+351,2013-03-31 00:00:00,1.98,14,Canada,Mark,Philips
+352,2013-04-01 00:00:00,3.96,16,USA,Frank,Harris
+353,2013-04-02 00:00:00,5.94,20,USA,Dan,Miller
+354,2013-04-05 00:00:00,8.91,26,USA,Richard,Cunningham
+355,2013-04-10 00:00:00,13.86,35,Portugal,Madalena,Sampaio
+356,2013-04-18 00:00:00,0.99,49,Poland,Stanisław,Wójcik
+357,2013-05-01 00:00:00,1.98,50,Spain,Enrique,Muñoz
+358,2013-05-01 00:00:00,1.98,52,United Kingdom,Emma,Jones
+359,2013-05-02 00:00:00,3.96,54,United Kingdom,Steve,Murray
+360,2013-05-03 00:00:00,5.94,58,India,Manoj,Pareek
+361,2013-05-06 00:00:00,8.91,5,Czech Republic,František,Wichterlová
+362,2013-05-11 00:00:00,13.86,14,Canada,Mark,Philips
+363,2013-05-19 00:00:00,0.99,28,USA,Julia,Barnett
+364,2013-06-01 00:00:00,1.98,29,Canada,Robert,Brown
+365,2013-06-01 00:00:00,1.98,31,Canada,Martha,Silk
+366,2013-06-02 00:00:00,3.96,33,Canada,Ellie,Sullivan
+367,2013-06-03 00:00:00,5.94,37,Germany,Fynn,Zimmermann
+368,2013-06-06 00:00:00,8.91,43,France,Isabelle,Mercier
+369,2013-06-11 00:00:00,13.86,52,United Kingdom,Emma,Jones
+370,2013-06-19 00:00:00,0.99,7,Austria,Astrid,Gruber
+371,2013-07-02 00:00:00,1.98,8,Belgium,Daan,Peeters
+372,2013-07-02 00:00:00,1.98,10,Brazil,Eduardo,Martins
+373,2013-07-03 00:00:00,3.96,12,Brazil,Roberto,Almeida
+374,2013-07-04 00:00:00,5.94,16,USA,Frank,Harris
+375,2013-07-07 00:00:00,8.91,22,USA,Heather,Leacock
+376,2013-07-12 00:00:00,13.86,31,Canada,Martha,Silk
+377,2013-07-20 00:00:00,0.99,45,Hungary,Ladislav,Kovács
+378,2013-08-02 00:00:00,1.98,46,Ireland,Hugh,O'Reilly
+379,2013-08-02 00:00:00,1.98,48,Netherlands,Johannes,Van der Berg
+380,2013-08-03 00:00:00,3.96,50,Spain,Enrique,Muñoz
+381,2013-08-04 00:00:00,5.94,54,United Kingdom,Steve,Murray
+382,2013-08-07 00:00:00,8.91,1,Brazil,Luís,Gonçalves
+383,2013-08-12 00:00:00,13.86,10,Brazil,Eduardo,Martins
+384,2013-08-20 00:00:00,0.99,24,USA,Frank,Ralston
+385,2013-09-02 00:00:00,1.98,25,USA,Victor,Stevens
+386,2013-09-02 00:00:00,1.98,27,USA,Patrick,Gray
+387,2013-09-03 00:00:00,3.96,29,Canada,Robert,Brown
+388,2013-09-04 00:00:00,5.94,33,Canada,Ellie,Sullivan
+389,2013-09-07 00:00:00,8.91,39,France,Camille,Bernard
+390,2013-09-12 00:00:00,13.86,48,Netherlands,Johannes,Van der Berg
+391,2013-09-20 00:00:00,0.99,3,Canada,François,Tremblay
+392,2013-10-03 00:00:00,1.98,4,Norway,Bjørn,Hansen
+393,2013-10-03 00:00:00,1.98,6,Czech Republic,Helena,Holý
+394,2013-10-04 00:00:00,3.96,8,Belgium,Daan,Peeters
+395,2013-10-05 00:00:00,5.94,12,Brazil,Roberto,Almeida
+396,2013-10-08 00:00:00,8.91,18,USA,Michelle,Brooks
+397,2013-10-13 00:00:00,13.86,27,USA,Patrick,Gray
+398,2013-10-21 00:00:00,0.99,41,France,Marc,Dubois
+399,2013-11-03 00:00:00,1.98,42,France,Wyatt,Girard
+400,2013-11-03 00:00:00,1.98,44,Finland,Terhi,Hämäläinen
+401,2013-11-04 00:00:00,3.96,46,Ireland,Hugh,O'Reilly
+402,2013-11-05 00:00:00,5.94,50,Spain,Enrique,Muñoz
+403,2013-11-08 00:00:00,8.91,56,Argentina,Diego,Gutiérrez
+404,2013-11-13 00:00:00,25.86,6,Czech Republic,Helena,Holý
+405,2013-11-21 00:00:00,0.99,20,USA,Dan,Miller
+406,2013-12-04 00:00:00,1.98,21,USA,Kathy,Chase
+407,2013-12-04 00:00:00,1.98,23,USA,John,Gordon
+408,2013-12-05 00:00:00,3.96,25,USA,Victor,Stevens
+409,2013-12-06 00:00:00,5.94,29,Canada,Robert,Brown
+410,2013-12-09 00:00:00,8.91,35,Portugal,Madalena,Sampaio
+411,2013-12-14 00:00:00,13.86,44,Finland,Terhi,Hämäläinen
+412,2013-12-22 00:00:00,1.99,58,India,Manoj,Pareek

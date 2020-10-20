@@ -1,0 +1,87 @@
+//Q1
+const GST = 0.15;
+function calculateGST() {
+  let priceIncGST = document.querySelector("#priceIncGST").value;
+  let newGST = (parseFloat(priceIncGST)- parseFloat(priceIncGST)/(1+GST)).toFixed(2);
+  document.querySelector("#gst").value = newGST;
+}
+
+//Q2
+const UNDERWEIGHT = 18.5;
+const NORMAL = 25;
+const OVERWEIGHT = 30;
+
+function calculateBMI() {
+  let weight = document.querySelector("#weight").value;
+  let height = document.querySelector("#height").value;
+	let BMI = (parseFloat(weight)/(parseFloat(height)**2)).toFixed(1);
+  document.querySelector("#bmi").value=BMI;
+  if (BMI <= UNDERWEIGHT) {
+  let message = 'UNDERWEIGHT';
+  document.querySelector("#bmi").value=message;
+  } else if (BMI>= 18.6 && BMI<=24.9) {
+  let message = 'NORMAL';
+  document.querySelector("#bmi").value=message;
+  } else if (BMI>=25 && BMI<=29.9) {
+  let message = 'OVERWEIHT';
+  document.querySelector("#bmi").value=message;
+  } else {
+  let message = 'OBESITY';
+  document.querySelector("#bmi").value=message;
+  }
+}
+
+//Q3
+const NUM_RANDOM = 100;
+const LIMIT = 1000;
+
+function generateRandom() {
+  let maxNum = 0；
+  let randNum；
+  for (i=0; i<NUM_RANDOM; i++) {
+	let randNum = Math.floor(Math.random()*LIMIT+1);
+  if (randNum > maxNum) {
+  maxNum = randNum;
+ }
+}
+  document.querySelector("#random").value = maxNum;
+}
+
+//Q4
+const LOWER_BOUND = 10000;
+const UPPER_BOUND = 60000;
+const number_of_people = 100；
+
+function runSimulation() {
+	let currentMax = LOWER_BOUND;
+  let currentMin = UPPER_BOUND;
+  let randomSum = 0;
+  let randNum;
+  
+  for(i=0; i<number_of_people; i++) {
+  randNum = (Math.random()*(UPPER_BOUND-LOWER_BOUND)) + LOWER_BOUND;
+  if (randNum > currentMax) {
+  currentMax = randNum;
+  }
+  if (randNum < currentMin) {
+  currentMin = randNum;
+  }
+  randomSum += randNum;
+  }
+  let average=randomSum/number_of_people;
+  document.querySelector('#max').value = Math.round(currentMax);
+  document.querySelector('#min').value = Math.round(currentMin);
+  document.querySelector('#average').value = Math.round(average);
+}
+
+//Q5
+function checkPalindrome() {
+	let word = document.querySelector("#palindrome").value;
+  word = word.toLowerCase().split("").join("")
+	let word_reverse = word.toLowerCase().split("").reverse().join("");
+  if (word === word_reverse) {
+  document.querySelector("#isPalindrome").value=true;
+  } else {
+  document.querySelector("#isPalindrome").value=false;
+  }
+}

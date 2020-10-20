@@ -1,0 +1,21 @@
+    <h2>Problem #1: Calculating GST</h2>
+      <label for="priceIncGST">Price GST inclusive:</label>
+      <input type="text" id="priceIncGST">
+      <button onclick="calculateGST()">Calculate GST</button><br>
+      <label>GST Amount: </label>
+      <input type="text" id="gst" disabled><br>
+
+label, input, button {
+  margin: 5px;
+}
+.large {
+  width: 200px;
+}
+
+
+const GST = 0.15;
+function calculateGST() {
+  let priceIncGST = document.querySelector("#priceIncGST").value;
+  let newGST = (parseFloat(priceIncGST)- parseFloat(priceIncGST)/(1+GST)).toFixed(2);
+  document.querySelector("#gst").value = newGST;
+}
