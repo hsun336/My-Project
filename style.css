@@ -1,0 +1,64 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image:url(vege.jpg);
+}
+.search-box{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.6);
+  max-width: 550px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 15px;
+  display:flex;
+  justify-content: space-between;
+}
+.search-btn{
+  background: #ffec00;
+  width: 10%;
+  border-radius:5px;
+  position: relative;
+  cursor: pointer;
+}
+.search-txt{
+  width: 85%;
+  padding: 15px 20px;
+  border:none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.fas {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 18px;
+}
+#more{
+  display: none;
+}
+p{
+  color: yellow;
+  font-size:25px;
+  font-family:'Bitter',serif;
+  line-height:35px;
+  text-align: justify;
+}
+p.result-txt{
+  color: lightblue;
+  font-size: 40px;
+  top:50%;
+  left:50%;
+  text-align: center;
+}
+button{
+  background-color: white;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 30px;
+  padding: 5px;
+}
