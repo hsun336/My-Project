@@ -47,11 +47,18 @@ p{
   line-height:35px;
   text-align: justify;
 }
+p.result-txt{
+  color: lightblue;
+  font-size: 40px;
+  top:50%;
+  left:50%;
+  text-align: center;
+}
 button{
-  background-color: #ff0066;
+  background-color: white;
   border: none;
   outline: none;
-  color: white;
+  color: black;
   font-size: 30px;
   padding: 5px;
 }

@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+
     <h1>About Us</h1>
     <br>
     <p>My Food Direct is a company that provides customers fresh food and agricultural products with home delivery services.<br>
@@ -31,14 +33,21 @@
       We also allow our visitors to make donations for KidsCan Charitable Trust through our website.
     </span>
     </p>
-    <button onclick="myFunction()" id="myBtn">Read more</button>
-    <script type="text/javascript" src="project.js"></script>
+    <button onclick="myView()" id="myBtn">view more</button>
 
+
+
+</div>
 <div class="search-box">
-  <input class="search-txt" type='text' name="" placeholder="What are you looking for?">
-  <a class="search-btn" href="#">
+  <input class="search-txt" type='text' name="search" placeholder="What are you looking for?" id="search" autocomplete="off">
+  <a class="search-btn" href="#" onclick="searchBar()">
   <i class="fas fa-search"></i>
   </a>
 </div>
+<p class="result-txt" id='result'>
+</p>
+  <script type="text/javascript" src="project.js"></script>
+
+
   </body>
 </html>
