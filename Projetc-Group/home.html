@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Food Direct - Order online, home delivery fresh food</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My Food Direct is a company that provides customers fresh food and agricultural products with home delivery services.">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="topnav">
+  <a href="home.html" target="_self">Home</a>
+  <a href="products.html" target="_self">Products</a>
+  </div>
+
+  <h1>My Food Direct</h1>
+
+    <div class="search-box">
+      <input class="search-txt" type='text' name="" placeholder="What are you looking for?">
+      <a class="search-btn" href="#" onclick="searchBar()">
+        <i class="fas fa-search"></i>
+      </a>
+      <p class="result-txt" id='result'>
+      </p>
+    </div>
+
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="fresh.jpg" style="width:100%">
+        <div class="text">Fresh & local produce</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="farmers.jpg" style="width:100%">
+        <div class="text">Support local farmers</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="delivery.jpg" style="width:100%">
+        <div class="text">We make delivery to your doorsteps</div>
+      </div>
+
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="border">
+      <h2>About Us</h2>
+      <p>My Food Direct is a company that provides customers fresh food and agricultural products with home delivery services<br>
+        <span id="dots">...</span><span id="more">
+
+          <br><strong>What we do</strong><br>
+          <br>We promote the selling of agriculture products and providing home delivery service for our customers<br>
+
+          <br><strong>Our Mission</strong><br>
+          We take action for Goal 2 of Sustainable Development Goals - Zero Hunger<br>
+
+          <br><strong>Support Local Farmers</strong><br>
+          We support our local farmers by buying food products from small-scale local farmers and selling their products to our consumers through our platform.<br>
+          This helps to increase agricultural productivity and their income.<br>
+        </span>
+      </p>
+      <button onclick="myFunction()" id="myBtn">Read more</button>
+    </div>
+<script src="javascript.js"></script>
+  </body>
+</html>
