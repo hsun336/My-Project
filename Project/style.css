@@ -17,7 +17,7 @@ body{
   justify-content: space-between;
 }
 .search-btn{
-  background: #ffec00;
+  background: lightblue;
   width: 10%;
   border-radius:5px;
   position: relative;
@@ -48,12 +48,13 @@ p{
   text-align: justify;
 }
 p.result-txt{
-  color: lightblue;
+  color: yellow;
   font-size: 40px;
   top:50%;
   left:50%;
   text-align: center;
 }
+
 button{
   background-color: white;
   border: none;
