@@ -195,7 +195,10 @@ const Products = [
   {name: 'watermelon', url:'<a href="fruits.html" target="_blank" >click to view our fruits</a>', image:"watermelon.jpg"},
   {name: 'cucumber', url:'<a href="vegetables.html" target="_blank" >click to view our vegetables</a>', image:"cucumber.jpg"},
   {name: 'cabbage',url:'<a href="vegetables.html" target="_blank" >click to view our vegetables</a>', image:"cabbage.jpg"},
-  {name: 'carrot',url:'<a href="vegetables.html" target="_blank" >click to view our vegetables</a>', image:"carrot.jpg"}
+  {name: 'carrot',url:'<a href="vegetables.html" target="_blank" >click to view our vegetables</a>', image:"carrot.jpg"},
+  {name: 'fruits',url:'<a href="fruits.html" target="_blank" >click to view our fruits</a>', image:"fruits.jpg"},
+  {name: 'vegetables',url:'<a href="vegetables.html" target="_blank" >click to view our vegetables</a>', image:"vegetables.jpg"},
+  {name: 'orange', url:'<a href="fruits.html" target="_blank" >click to view our fruits</a>', image:"orange.jpg"},
 ];
 const searchInput = document.getElementById('search');//this search value entered by user
 console.log(searchInput);
