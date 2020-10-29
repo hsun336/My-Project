@@ -5,9 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="My Food Direct is a company that provides customers fresh food and agricultural products with home delivery services.">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
   <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
@@ -19,45 +18,36 @@
   <h1>My Food Direct</h1>
 
     <div class="search-box">
-      <input class="search-txt" type='text' name="" placeholder="What are you looking for?">
+      <input class="search-txt" type='text' name="" placeholder="What are you looking for?" id="search" autocomplete="off">
       <a class="search-btn" href="#" onclick="searchBar()">
         <i class="fas fa-search"></i>
       </a>
-      <p class="result-txt" id='result'>
-      </p>
+
     </div>
 
+		<div class="slider">
+        <div class="slider_img">
+            <ul>
+                <li><a href="#"><img src="images/fresh.jpg" alt="fresh produce"></a></li>
+                <li><a href="#"><img src="images/farmers.jpg" alt="local farmers"></a></li>
+                <li><a href="#"><img src="images/delivery.jpg" alt="home delivery service"></a></li>
+            </ul>
+        </div>
+        <div class="slider_btn">
+            <span class="prev"></span>
+            <span class="next"></span>
+            <div class="xbtn">
 
-    <div class="slideshow-container">
+            </div>
+        </div>
+    </div>
 
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="fresh.jpg" style="width:100%">
-        <div class="text">Fresh & local produce</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="farmers.jpg" style="width:100%">
-        <div class="text">Support local farmers</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="delivery.jpg" style="width:100%">
-        <div class="text">We make delivery to your doorsteps</div>
-      </div>
-
-
+        <div id="arr"><span id="left">&lt;</span><span id="right">&gt;</span></div>
     </div>
     <br>
-
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-
+    <p class="result-txt" id='result'>
+    </p>
+    <br>
     <div class="border">
       <h2>About Us</h2>
       <p>My Food Direct is a company that provides customers fresh food and agricultural products with home delivery services<br>
@@ -76,6 +66,6 @@
       </p>
       <button onclick="myFunction()" id="myBtn">Read more</button>
     </div>
-<script src="javascript.js"></script>
   </body>
+<script src="functionality.js"></script>
 </html>
